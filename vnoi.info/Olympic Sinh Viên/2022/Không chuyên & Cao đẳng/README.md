@@ -1,6 +1,0 @@
-|NAME|AC|
-|---|:---:|
-|NGHỆ THUẬT TRỪU TƯỢNG |EMPTY|
-|CẮT DÁN|EMPTY|
-|QUÀ NOEL|EMPTY|
-|CỬA HÀNG NĂNG LƯỢNG THÔNG MINH|EMPTY|
