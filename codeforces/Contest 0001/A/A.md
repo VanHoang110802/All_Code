@@ -9,7 +9,7 @@ Việc lát đá phủ diện tích lớn hơn Quảng trường Theatre đượ
 
 Không được phép làm vỡ những viên đá lát. 
 
-Các cạnh của viên đá lát phải song song với các cạnh của Quảng trường.
+Đầu vào chứa ba số nguyên dương ở dòng đầu tiên lần lượt là n, m, a. Tìm các cạnh của viên đá lát phải song song với các cạnh của Quảng trường.
 
 ## INPUT
 ```
