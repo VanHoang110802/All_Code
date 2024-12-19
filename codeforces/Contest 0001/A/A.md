@@ -10,12 +10,3 @@ Việc lát đá phủ diện tích lớn hơn Quảng trường Theatre đượ
 Không được phép làm vỡ những viên đá lát. 
 
 Đầu vào chứa ba số nguyên dương ở dòng đầu tiên lần lượt là n, m, a. Viết số lượng viên đá lát cần thiết. (1 <= n, m , a <= 10^9)
-
-## INPUT
-```
-6 6 4
-```
-## OUTPUT
-```
-4
-```
