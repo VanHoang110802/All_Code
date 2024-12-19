@@ -5,7 +5,7 @@ Nhân dịp kỷ niệm ngày thành lập thành phố, đã có quyết địn
 
 Mỗi viên đá lát có kích thước a x a. Số lượng đá cần ít nhất cần thiết để lát phủ kín Quảng trường là bao nhiêu? 
 
-Việc lát đá phủ diện tích lớn hơn Quảng trường Theatre được cho phép, nhưng Quảng trường phải được phủ kín hoàn toàn. ("It" ở đây là chủ ngữ giả. Cấu trúc "It is allowed to..." được dùng để nói rằng việc gì đó được cho phép, và "it" không ám chỉ một đối tượng cụ thể mà chỉ đóng vai trò làm chủ ngữ để câu có cấu trúc hoàn chỉnh.) 
+Việc lát đá phủ diện tích lớn hơn Quảng trường Theatre được cho phép, nhưng Quảng trường phải được phủ kín hoàn toàn. ("It" ở đây là chủ ngữ giả <dummy subject>. Cấu trúc "It is allowed to..." được dùng để nói rằng việc gì đó được cho phép, và "it" không ám chỉ một đối tượng cụ thể mà chỉ đóng vai trò làm chủ ngữ để câu có cấu trúc hoàn chỉnh.) 
 
 Không được phép làm vỡ những viên đá lát. 
 
