@@ -10,3 +10,12 @@ Việc lát đá phủ diện tích lớn hơn Quảng trường Theatre đượ
 Không được phép làm vỡ những viên đá lát. 
 
 Các cạnh của viên đá lát phải song song với các cạnh của Quảng trường.
+
+## INPUT
+```
+6 6 4
+```
+## OUTPUT
+```
+4
+```
