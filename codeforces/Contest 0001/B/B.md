@@ -18,15 +18,3 @@ Nhiệm vụ của bạn là viết một chương trình đọc dãy tọa đ�
 Dòng đầu tiên của đầu vào chứa một số nguyên n(1 <= n <= 10^5), là số lượng tọa độ trong bài kiểm tra.
 
 Sau đó n dòng, mỗi dòng một tọa độ. Tất cả các tọa độ đều chính xác, không có ô nào có số cột và/hoặc số hàng lớn hơn 10^6.
-
-## INPUT
-```
-2
-R23C55
-BC23
-```
-## OUTPUT
-```
-BC23
-R23C55
-```
