@@ -18,5 +18,9 @@ Ban đầu mỗi người chơi đều có 0 điểm.
 "It's" trong câu này không chỉ về một vật cụ thể mà nó chỉ về toàn bộ tình huống hoặc điều kiện trong trò chơi mà câu đang miêu tả. Cụ thể, "It's guaranteed" có nghĩa là "Điều này được đảm bảo" hoặc "Điều này chắc chắn sẽ xảy ra." -> Điều này được đảm bảo rằng vào cuối trò chơi, ít nhất một người chơi sẽ có số điểm dương.
 
 ## INPUT
+Dòng đầu tiên chứa một số nguyên n (1 ≤ n ≤ 1000), n là số vòng chơi đã diễn ra.
+
+Sau đó là n dòng, chứa thông tin về các vòng chơi theo định dạng "name score" theo thứ tự thời gian, trong đó "name" là một chuỗi các chữ cái Latin viết thường có độ dài từ 1 đến 32, và "score" là một số nguyên trong khoảng từ -1000 đến 1000, bao gồm cả hai giá trị này.
 
 ## OUTPUT
+Xuất ra tên người thắng cuộc
