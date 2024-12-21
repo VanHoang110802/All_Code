@@ -37,4 +37,11 @@ Số ô trong các lớp trước: Số ô trong tất cả các lớp trước 
 Như vậy, để xử lý cho đúng, ta cần phải dựa vào việc lớp z là lẻ hay chẵn, ta sẽ tính giá trị ô (x, y) khác nhau. Lớp lẻ và lớp chẵn có cách di chuyển giá trị từ một cạnh đến các cạnh khác nhau của hình vuông.
 
 Nhìn vào hình vẽ, ta có thể tự suy ra được:
-- Nếu z (lớp) là chẵn 
+- Nếu z (lớp) là lẻ:
+  - nếu x == z: (z - 1) * (z - 1) + y
+  - Ngược lại: (z - 1) * (z - 1) + 2 * z - x;
+- Ngược lại:
+  - Nếu y == z: (z - 1) * (z - 1) + x
+  - Ngược lại: (z - 1) * (z - 1) + 2 * z - y;
+
+Với mỗi lần xét điều kiện thì tính toán rồi in kết quả luôn
