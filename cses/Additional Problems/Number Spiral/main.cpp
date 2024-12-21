@@ -2,7 +2,6 @@
 #include <functional>
 #include <vector>
 #include <algorithm>
-#include <conio.h>
 using namespace std;
 
 #define var auto
@@ -11,9 +10,9 @@ using namespace std;
 int32_t main()
 {
     ios_base::sync_with_stdio(0), cin.tie(0);
-    //int n;
-    //cin >> n;
-    //for(int i = 1; i <= n; ++i)
+    int n;
+    cin >> n;
+    for(int i = 1; i <= n; ++i)
     {
         //for(int j = 1; j <= n; ++j)
         {
@@ -23,7 +22,6 @@ int32_t main()
             int z = max(x, y); /// xác định lớp mà ô (x, y) thuộc về.
             int z2 = (z - 1) * (z - 1); /// tính số ô trong tất cả các lớp trước lớp z, vì số ô trong mỗi lớp là diện tích của hình vuông lớp đó.
             int ans = 0;
-            //cout << x << " " << y << " " << z << " " << z2 << "\n";
             if(z % 2)
             {
 
