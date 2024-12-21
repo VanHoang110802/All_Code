@@ -35,3 +35,6 @@ Vậy xác định lớp đó kiểu gì? Gọi z là lớp, ta nhận thấy r�
 Số ô trong các lớp trước: Số ô trong tất cả các lớp trước lớp z là (z-1)^2
 
 Như vậy, để xử lý cho đúng, ta cần phải dựa vào việc lớp z là lẻ hay chẵn, ta sẽ tính giá trị ô (x, y) khác nhau. Lớp lẻ và lớp chẵn có cách di chuyển giá trị từ một cạnh đến các cạnh khác nhau của hình vuông.
+
+Nhìn vào hình vẽ, ta có thể tự suy ra được:
+- Nếu z (lớp) là chẵn 
