@@ -56,8 +56,6 @@ int32_t main()
     }
     cout << '\n' << v2.size() << '\n';
     for(auto i : v2)
-
-
     {
         cout << i << ' ';
     }
