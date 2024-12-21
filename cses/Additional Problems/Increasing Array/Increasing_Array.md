@@ -21,6 +21,4 @@ Xét ví dụ: 3 2 5 1 7
 -> 5
 ```
 
-Do xi luôn dương nên ta không cần xét đến số âm.
-
- Gọi mx là giá trị lớn nhất mà các phần tử cần đạt được để mảng trở thành mảng tăng dần. Vòng lặp duyệt qua từng phần tử của mảng, mỗi lần xét đến phần tử nào đó trong mảng, cập nhật mx thành giá trị lớn nhất giữa phần tử đó với mx. Nếu phần tử đó nhỏ hơn mx, tức là phần tử này cần được tăng lên để bằng mx (hoặc ít nhất là không nhỏ hơn mx). Do đó, số bước cần thiết để làm điều này là mx - phần tử đó. Đem đi cộng dồn lại sẽ được kết quả cần tìm.
+Do xi luôn dương nên ta không cần xét đến số âm. Gọi mx là giá trị lớn nhất mà các phần tử cần đạt được để mảng trở thành mảng tăng dần. Vòng lặp duyệt qua từng phần tử của mảng, mỗi lần xét đến phần tử nào đó trong mảng, cập nhật mx thành giá trị lớn nhất giữa phần tử đó với mx. Nếu phần tử đó nhỏ hơn mx, tức là phần tử này cần được tăng lên để bằng mx (hoặc ít nhất là không nhỏ hơn mx). Do đó, số bước cần thiết để làm điều này là mx - phần tử đó. Đem đi cộng dồn lại sẽ được kết quả cần tìm.
