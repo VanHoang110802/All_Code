@@ -10,3 +10,4 @@ Với 2 3, tức là xét ô tại vị trí ở dòng 2, cột 3: ô có mang g
 Với 1 1, tức là xét ô tại vị trí ở dòng 1, cột 1: ô có mang giá trị là 1
 Với 4 2, tức là xét ô tại vị trí ở dòng 4, cột 2: ô có mang giá trị là 15
 ```
+
