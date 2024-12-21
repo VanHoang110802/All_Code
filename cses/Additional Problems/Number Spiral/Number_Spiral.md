@@ -13,10 +13,19 @@ Với 4 2, tức là xét ô tại vị trí ở dòng 4, cột 2: ô có mang g
 
 Các số được điền vào theo dạng xoắn ốc từ số 1 trở đi. 
 
-Mỗi lớp của xoắn ốc tạo thành một hình vuông, và số lượng ô trong mỗi lớp tăng dần.
+Vẽ hình ra, nhìn ngẫm một chút. Ta coi như mỗi một màu là một lớp.
 
+Mỗi lớp của xoắn ốc tạo thành một hình vuông, và số lượng ô trong mỗi lớp tăng dần.
 - Lớp 1: chỉ có một ô (số 1).
 - Lớp 2: có 4 ô (2x2), các số từ 2 đến 4.
 - Lớp 3: có 9 ô (3x3), các số từ 5 đến 9.
 - Lớp 4: có 16 ô (4x4), các số từ 10 đến 16.
 - Lớp 5: có 16 ô (5x5), các số từ 17 đến 25.
+
+Vậy xác định lớp kiểu gì? Ta nhận thấy rằng:
+- Lớp 1: có 1 ô (1x1), sẽ có toạ độ ô từ (1, 1) đến (1, 1).
+- Lớp 2: có 4 ô (2x2), sẽ có toạ độ từ ô (1, 1) đến (2, 2).
+- Lớp 3: có 9 ô (3x3), sẽ có toạ độ từ ô (1, 1) đến (3, 3).
+- .....
+
+-> Vậy nên lớp sẽ được xác định max của (x, y).
