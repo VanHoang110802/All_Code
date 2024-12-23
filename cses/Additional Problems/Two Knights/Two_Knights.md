@@ -16,7 +16,7 @@ Với mỗi bàn cờ ${ \(k \times k\) }$ , tổng số ô là ${ \(k^2\) }$.
 
 Chúng ta cần chọn hai ô khác nhau để đặt quân mã. Vì vậy, số cách chọn hai ô từ ${ \(k^2\) }$ ô là số tổ hợp 2 từ ${ \(k^2\) }$.
 
-Với công thức tổ hợp chuẩn cho việc chọn \( k \) phần tử từ \( n \) phần tử ở trên, trong bài toán này, ta đang tính số cách chọn **2 ô** từ **\( k^2 \) ô** trên bàn cờ. Đây chính là tình huống dùng **tổ hợp 2 từ \( k^2 \)**, tức là:
+Với công thức tổ hợp chuẩn cho việc chọn ${ \( k \) }$ phần tử từ ${ \( n \) }$ phần tử ở trên, trong bài toán này, ta đang tính số cách chọn 2 ô từ ${ \( k^2 \) }$ ô trên bàn cờ. Đây chính là tình huống dùng tổ hợp 2 từ ${ \( k^2 \) }$, tức là:
 
 \[
 \binom{k^2}{2} = \frac{k^2!}{2!(k^2 - 2)!}
