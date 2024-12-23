@@ -7,4 +7,6 @@ Ta cần xét:
 - Kiếm tra xem 1 đồng bên trái có bằng 2 đồng bên phải hay không?
 - Kiếm tra xem 1 đồng bên phải có bằng 2 đồng bên trái hay không?
 
+Đại khái nếu muốn cả hai chồng tiền rỗng, thì ta hình dung ra chồng tiền xu: 1 bên 2 cái, 1 bên 1 cái. Luôn luôn hoặc là hai bên chồng tiền phải bằng nhau về số lượng, hoặc một bên phải thấp gấp đôi so với bên còn lại.
+
 Kết quả "YES" sẽ được in ra nếu cả ba điều kiện đều thỏa mãn, còn "NO" nếu không thỏa mãn bất kỳ điều kiện nào.
