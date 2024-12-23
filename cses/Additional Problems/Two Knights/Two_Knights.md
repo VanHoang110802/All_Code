@@ -18,44 +18,32 @@ Chúng ta cần chọn hai ô khác nhau để đặt quân mã. Vì vậy, số
 
 Với công thức tổ hợp chuẩn cho việc chọn ${ \( k \) }$ phần tử từ ${ \( n \) }$ phần tử ở trên, trong bài toán này, ta đang tính số cách chọn 2 ô từ ${ \( k^2 \) }$ ô trên bàn cờ. Đây chính là tình huống dùng tổ hợp 2 từ ${ \( k^2 \) }$, tức là:
 
-\[
-\binom{k^2}{2} = \frac{k^2!}{2!(k^2 - 2)!}
-\]
+${ \binom{k^2}{2} = \frac{k^2!}{2!(k^2 - 2)!} }$ 
 
-Tuy nhiên, công thức này có thể đơn giản hóa vì bạn chỉ cần tính số cách chọn **2 ô** từ \( k^2 \) ô mà thôi (không cần sử dụng giai thừa).
+Tuy nhiên, công thức này có thể đơn giản hóa vì bạn chỉ cần tính số cách chọn 2 ô từ ${ \( k^2 \) }$ ô mà thôi (không cần sử dụng giai thừa).
 
-### 2. **Sự biến đổi thành \( k^2 \times (k^2 - 1) / 2 \)**:
+Phân tích sự biến đổi thành ${ \( k^2 \times (k^2 - 1) / 2 \) }$:
 
-Khi bạn chọn 2 ô từ \( k^2 \) ô, số cách này là tổ hợp 2 từ \( k^2 \), và công thức tổ hợp \( \binom{n}{2} \) (cho \( k^2 \) phần tử và chọn 2 phần tử) có thể được tính trực tiếp là:
+Khi bạn chọn 2 ô từ ${ \( k^2 \) }$ ô, số cách này là tổ hợp 2 từ ${ \( k^2 \) }$, và công thức tổ hợp ${ \binom{n}{2} }$ 
 
-\[
-\binom{k^2}{2} = \frac{k^2 \times (k^2 - 1)}{2}
-\]
+${ cho \( k^2 \) }$ phần tử và chọn 2 phần tử có thể được tính trực tiếp là:
+
+${ \binom{k^2}{2} = \frac{k^2 \times (k^2 - 1)}{2} }$
 
 Đây là công thức tổ hợp **đã được đơn giản hóa** cho trường hợp chọn **2 ô từ \( k^2 \)**.
 
-### **Vì sao lại có công thức này?**
+Vì sao lại có công thức này?
 
-Hãy nhìn lại công thức tổ hợp \( \binom{n}{2} \) đối với việc chọn 2 phần tử từ một tập gồm \( n \) phần tử.
+Hãy nhìn lại công thức tổ hợp ${ \binom{n}{2} }$ đối với việc chọn 2 phần tử từ một tập gồm n phần tử.
 
-\[
-\binom{n}{2} = \frac{n \times (n - 1)}{2}
-\]
+${ \binom{n}{2} = \frac{n \times (n - 1)}{2} }$
 
 - Bạn có \( n \) phần tử trong tập hợp, và bạn muốn chọn 2 phần tử. Đầu tiên, bạn có \( n \) lựa chọn cho phần tử đầu tiên, sau đó bạn còn lại \( n - 1 \) lựa chọn cho phần tử thứ hai.
 - Vì thứ tự không quan trọng (chỉ là chọn 2 phần tử mà không quan tâm đến việc chúng được chọn theo thứ tự nào), bạn phải chia cho 2 (để loại bỏ sự trùng lặp, vì hai phần tử \( A \) và \( B \) là giống nhau so với việc chọn \( B \) và \( A \)).
 
-Do đó, số cách chọn 2 phần tử từ \( n \) phần tử là:
+Do đó, số cách chọn 2 phần tử từ \( n \) phần tử là: ${ \frac{n \times (n - 1)}{2} }$
 
-\[
-\frac{n \times (n - 1)}{2}
-\]
-
-Trong trường hợp bài toán của bạn, số ô trên bàn cờ là \( k^2 \), và bạn đang chọn 2 ô từ \( k^2 \) ô. Do đó:
-
-\[
-\binom{k^2}{2} = \frac{k^2 \times (k^2 - 1)}{2}
-\]
+Trong trường hợp bài toán, số ô trên bàn cờ là ${ k^2 }$, và bạn đang chọn 2 ô từ ${ k^2 }$ ô. Do đó: ${ \binom{k^2}{2} = \frac{k^2 \times (k^2 - 1)}{2} }$
 
 Như vậy:
 
