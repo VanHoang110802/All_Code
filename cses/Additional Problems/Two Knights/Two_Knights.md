@@ -10,11 +10,11 @@ Công thức tính tổ hợp: ${ \binom{n}{k} = \frac{n!}{k!(n-k)!} }$
 
 Quay lại bài toán: Ta sẽ sử dụng khái niệm tổ hợp để tính số cách đặt hai quân mã sao cho chúng không tấn công nhau trên bàn cờ. Tổ hợp được sử dụng để tính số cách chọn hai ô trên bàn cờ mà không quan tâm đến thứ tự (vì hai quân mã không phân biệt về thứ tự). 
 
-Trước tiên, chúng ta tính số cặp ô có thể được chọn trên bàn cờ ${ \(k \times k\) }$ . 
+Trước tiên, chúng ta tính số cặp ô có thể được chọn trên bàn cờ ${ \(k \times k\) }$. 
 
-Với mỗi bàn cờ ${ \(k \times k\) }$ , tổng số ô là ${ \(k^2\) }$ . 
+Với mỗi bàn cờ ${ \(k \times k\) }$ , tổng số ô là ${ \(k^2\) }$. 
 
-Chúng ta cần chọn hai ô khác nhau để đặt quân mã. Vì vậy, số cách chọn hai ô từ ${ \(k^2\) }$ ô là số tổ hợp 2 từ ${ \(k^2\) }$ , được tính bằng công thức:
+Chúng ta cần chọn hai ô khác nhau để đặt quân mã. Vì vậy, số cách chọn hai ô từ ${ \(k^2\) }$ ô là số tổ hợp 2 từ ${ \(k^2\) }$, được tính bằng công thức:
 
 ${ \text{Số cặp ô} = \binom{k^2}{2} = \frac{k^2 \times (k^2 - 1)}{2} }$ 
 
