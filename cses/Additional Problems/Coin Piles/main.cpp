@@ -1,7 +1,7 @@
 #include <iostream>
-#include <functional>
-#include <vector>
 #include <algorithm>
+#include <array>
+#include <vector>
 using namespace std;
 
 #define var auto
@@ -10,11 +10,18 @@ using namespace std;
 int32_t main()
 {
     ios_base::sync_with_stdio(0), cin.tie(0);
-    int a, b; cin >> a >> b;
-    if(((a + b) % 3 == 0) && (2 * a >= b) && (2 * b >= a))
-        cout << "YES\n";
-    else
+    int n;
+    cin >> n;
+    for(int i = 1; i <= n; ++i)
+    {
+        int x, y;
+        cin >> x >> y;
+        if(((x + y) % 3 == 0) && (2 * x >= y) && (2 * y >= x))
+        {
+            cout << "YES\n";
+            continue;
+        }
         cout << "NO\n";
-
+    }
     return 0;
 }
