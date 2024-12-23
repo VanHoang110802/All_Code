@@ -44,7 +44,7 @@ Do đó, số cách chọn 2 phần tử từ n phần tử là: ${ \frac{n \tim
 
 Trong trường hợp bài toán, số ô trên bàn cờ là ${ k^2 }$, và ta đang chọn 2 ô từ ${ k^2 }$ ô. Do đó: ${ \binom{k^2}{2} = \frac{k^2 \times (k^2 - 1)}{2} }$
 
-Như vậy: ${ \text{Số cặp ô} = \binom{k^2}{2} = \frac{k^2 \times (k^2 - 1)}{2} }$ 
+${ \text{Số cặp ô} = \binom{k^2}{2} = \frac{k^2 \times (k^2 - 1)}{2} }$ 
 
 Tuy nhiên, theo đề bài là 'hai quân mã có thể được đặt trên bàn cờ sao cho chúng không tấn công nhau', ta cần loại trừ những cặp ô mà quân mã có thể tấn công nhau (do đặc tính của quân mã trong cờ vua). Cụ thể, quân mã trong cờ vua có thể tấn công theo một mô hình chữ "L" (có thể di chuyển theo các ô hình chữ nhật 2x1 hoặc 1x2), và những cặp ô này cần được loại bỏ khỏi tổng số cặp ô mà ta tính được từ công thức tổ hợp. Tính toán các cặp ô mà quân mã có thể tấn công và trừ chúng ra khỏi số cặp ô ban đầu.
 
