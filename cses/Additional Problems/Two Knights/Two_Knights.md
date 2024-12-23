@@ -30,7 +30,7 @@ ${ cho \( k^2 \) }$ phần tử và chọn 2 phần tử có thể được tín
 
 ${ \binom{k^2}{2} = \frac{k^2 \times (k^2 - 1)}{2} }$
 
-Đây là công thức tổ hợp **đã được đơn giản hóa** cho trường hợp chọn **2 ô từ \( k^2 \)**.
+Đây là công thức tổ hợp đã được đơn giản hóa cho trường hợp chọn 2 ô từ ${k^2}$.
 
 Vì sao lại có công thức này?
 
@@ -38,10 +38,11 @@ Hãy nhìn lại công thức tổ hợp ${ \binom{n}{2} }$ đối với việc 
 
 ${ \binom{n}{2} = \frac{n \times (n - 1)}{2} }$
 
-- Bạn có \( n \) phần tử trong tập hợp, và bạn muốn chọn 2 phần tử. Đầu tiên, bạn có \( n \) lựa chọn cho phần tử đầu tiên, sau đó bạn còn lại \( n - 1 \) lựa chọn cho phần tử thứ hai.
-- Vì thứ tự không quan trọng (chỉ là chọn 2 phần tử mà không quan tâm đến việc chúng được chọn theo thứ tự nào), bạn phải chia cho 2 (để loại bỏ sự trùng lặp, vì hai phần tử \( A \) và \( B \) là giống nhau so với việc chọn \( B \) và \( A \)).
+Bạn có n phần tử trong tập hợp, và bạn muốn chọn 2 phần tử. Đầu tiên, bạn có n lựa chọn cho phần tử đầu tiên, sau đó bạn còn lại n - 1 lựa chọn cho phần tử thứ hai.
 
-Do đó, số cách chọn 2 phần tử từ \( n \) phần tử là: ${ \frac{n \times (n - 1)}{2} }$
+Vì thứ tự không quan trọng (chỉ là chọn 2 phần tử mà không quan tâm đến việc chúng được chọn theo thứ tự nào), bạn phải chia cho 2 (để loại bỏ sự trùng lặp, vì hai phần tử A và B là giống nhau so với việc chọn B và A).
+
+Do đó, số cách chọn 2 phần tử từ n phần tử là: ${ \frac{n \times (n - 1)}{2} }$
 
 Trong trường hợp bài toán, số ô trên bàn cờ là ${ k^2 }$, và bạn đang chọn 2 ô từ ${ k^2 }$ ô. Do đó: ${ \binom{k^2}{2} = \frac{k^2 \times (k^2 - 1)}{2} }$
 
